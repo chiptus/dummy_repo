@@ -7,3 +7,5 @@ services:
       - "${EXTPORT}:80"
     volumes:
       - ./static:/usr/share/nginx/html
+  db:
+    image: nginx
