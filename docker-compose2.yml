@@ -1,4 +1,5 @@
-db:
-  command: '-d'
-  ports:
-    - 5432:5432
+services:
+  db:
+    command: '-d'
+    ports:
+      - 5432:5432
