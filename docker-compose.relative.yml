@@ -4,4 +4,4 @@ services:
     image: busybox
     command: ["/bin/busybox", "cat", "/relative/file"]
     volumes:
-      - /mnt/relativepath:/relative/file
+      - /mnt/relative:/relative/file
