@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  webapp:
+    image: busybox
+    command: ["/bin/busybox", "cat", "/relative/file"]
+    volumne:
+      - /mnt/relativepath:/relative/file
