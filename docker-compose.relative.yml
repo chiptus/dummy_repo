@@ -3,5 +3,5 @@ services:
   webapp:
     image: busybox
     command: ["/bin/busybox", "cat", "/relative/file"]
-    volumne:
+    volume:
       - /mnt/relativepath:/relative/file
